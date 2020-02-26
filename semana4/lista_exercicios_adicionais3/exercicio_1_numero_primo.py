@@ -13,10 +13,14 @@ não primo
 """
 
 def numbero_primo(numero):
-    x = 0
-    while x <0:
-        if numero // numero:
-                
+    mult = 0
+    for count in range(2,numero):
+        if numero % count == 0:
+            mult += 1
+    if mult == 0:
+       print("É primo")
+    else:
+        print("Não é primo")
 
-
-int(input("Digite um número inteiro:"))
+numero = int(input("Digite um número inteiro:"))
+numbero_primo(numero)
