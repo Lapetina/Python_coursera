@@ -11,7 +11,6 @@ primo
 Digite um número inteiro: 12
 não primo
 """
-
 def numbero_primo(numero):
     mult = 0
     for count in range(2,numero):
