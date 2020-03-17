@@ -17,9 +17,9 @@ def numbero_primo(numero):
         if numero % count == 0:
             mult += 1
     if mult == 0:
-       print("É primo")
+       print("E primo")
     else:
-        print("não primo")
+        print("nao primo")
 
 numero = int(input("Digite um número inteiro:"))
 numbero_primo(numero)
