@@ -11,7 +11,6 @@ primo
 Digite um número inteiro: 12
 não primo
 """
-
 def numbero_primo(numero):
     mult = 0
     for count in range(2,numero):
@@ -20,7 +19,7 @@ def numbero_primo(numero):
     if mult == 0:
        print("É primo")
     else:
-        print("Não é primo")
+        print("não primo")
 
 numero = int(input("Digite um número inteiro:"))
 numbero_primo(numero)

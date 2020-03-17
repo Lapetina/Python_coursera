@@ -3,7 +3,7 @@ Receba um número inteiro na entrada e imprima
 
 par
 
-quando o número for par ou
+quando o número for par
 
 ímpar
 
