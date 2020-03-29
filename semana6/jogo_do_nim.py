@@ -128,7 +128,6 @@ def campeonato():
 
 
 print("Bem vindo ao jogo do NIM! Escolha: \n")
-
 opcao = int(input("1 - para jogar uma partida isolada\n"
                   "2 - para jogar um campenato "))
 if opcao == 1:
