@@ -43,7 +43,7 @@ def computador_escolhe_jogada(n, m):
     return removendo_peca
 
 
-def usuario_escolhe_jogada(m):
+def usuario_escolhe_jogada(n, m):
     i = 1
     jogada = int(input(u"Quantas peças você vai tirar? "))
     while i != 0:
