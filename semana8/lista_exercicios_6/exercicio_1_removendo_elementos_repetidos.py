@@ -14,6 +14,7 @@ Dica: Você pode usar lista.sort() ou sorted(lista). Qual a diferença?
 
 """
 
+
 def remove_repetidos(lista):
     lista_nova = []
     lista = set(lista)
